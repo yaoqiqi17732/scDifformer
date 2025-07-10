@@ -1,2 +1,2 @@
 # scDifformer
-A Single Cell Large Language Model
+A Single Cell Large Language Model.
