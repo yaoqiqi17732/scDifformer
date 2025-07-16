@@ -1,0 +1,9 @@
+00. 虚拟环境名为scdifformer, conda activate scdifformer. 没有的话通过conda env create -f scdifformer.yml 创建
+10. 需要确保h5ad的var中有feature_name字段（基因名称）， 且放在对应物种的input目录下
+20. 有几个参数可以根据情况定义：
+	21. cell_type_flag：样本中是否有cell_type， 默认True
+	22. qc_filter_flag：是否对样本进行过滤操作， 默认True
+	23. num_processes：处理进程数， 默认8
+	24. forward_batch_size：批处理大小， 默认为32
+30. python mus_all_in_one.py 或者 human_all_in_one.py 输出在output目录下
+	
