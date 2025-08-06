@@ -1,0 +1,51 @@
+[project]
+name = "scdifformer"
+version = "0.1.0"
+description = "A Single Cell Large Language Model."
+readme = "README.md"
+keywords = [
+  "Large Language Model",
+  "Single Cell",
+]
+license = "MIT"
+maintainers = [
+  { name = "tyvekZhang", email = "tyvekzhang@gmail.com" },
+]
+authors = [
+  { name = "tyvekZhang", email = "tyvekzhang@gmail.com" },
+]
+requires-python = ">=3.11"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "accelerate>=1.9",
+  "datasets>=4",
+  "loguru>=0.7.3",
+  "loompy>=3.0.8",
+  "openpyxl>=3.1.5",
+  "scanpy>=1.11.4",
+  "scrublet>=0.2.3",
+  "torch>=2.7.1",
+  "transformers>=4.54.1",
+]
+
+[dependency-groups]
+dev = [
+  "pre-commit>=4.2",
+]
+
+[tool.ruff]
+line-length = 100
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
