@@ -1,11 +1,5 @@
-<div  align="center" style="margin-top: 3%">
-   <h1>
-     ScDifformer
-   </h1>
-   <h3>
-    A single cell large language model with context-awareness, enhanced by a denoising diffusion module and a dedicated post-training phase.
-   </h3>
-</div>
+# ScDifformer
+A single cell large language model with context-awareness, enhanced by a denoising diffusion module and a dedicated post-training phase.
 
 ## Quick Start
 
