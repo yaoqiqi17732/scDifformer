@@ -28,19 +28,19 @@ uv sync
    Note: Demonstration examples only - replace with your content and customize per instructions.
     1. Preprocess
     ```python
-    python preprocess/preprocess.py -hct
+    uv run python preprocess/preprocess.py -hct
     ```
     2. Fine-tune
 
     ```python
-    python fine_tune/fine_tune_celltype_annotation.py \
+    uv run python fine_tune/fine_tune_celltype_annotation.py \
         -pmd /path/to/pretrained_model \
         -id /path/to/arrow_data \
         -nip /path/to/name_id.pkl
     ```
     3. Inference
     ```python
-    python inference/inference_celltype_annotation.py \
+    uv run python inference/inference_celltype_annotation.py \
         -tdp /data/test_dataset.h5ad \
         -nip /path/to/name_id.pkl \
         -ftmp /path/to/fine_tune_model

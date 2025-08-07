@@ -44,8 +44,3 @@ dev = [
 
 [tool.ruff]
 line-length = 100
-
-[[tool.uv.index]]
-name = "aliyun"
-url = "https://mirrors.aliyun.com/pypi/simple/"
-default = true
