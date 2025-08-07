@@ -1,7 +1,7 @@
 [project]
-name = "scdifformer"
+name = "Scdifformer"
 version = "0.1.0"
-description = "A Single Cell Large Language Model."
+description = "A single cell large language model with context-awareness, enhanced by a denoising diffusion module and a dedicated post-training phase."
 readme = "README.md"
 keywords = [
   "Large Language Model",
